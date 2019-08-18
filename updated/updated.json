@@ -1,0 +1,12 @@
+{
+    
+    "builders": [{
+      
+      "type": "amazon-ebs",
+      "region": "us-east-2",
+      "instance_type": "t2.micro", #testing 
+      "ssh_username": "ec2-user",
+      "source_ami": "ami-0f2b4fc905b0bd1f1", #any ami u want 
+      "ami_name": "updated-ami {{timestamp}}" #for time identification
+    }]
+  }
