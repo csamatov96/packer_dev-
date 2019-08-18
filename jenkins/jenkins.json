@@ -18,7 +18,7 @@
                 "sudo yum install jenkins -y",
                 "sudo systemctl enable jenkins",
                 "sudo systemctl start jenkins",
-                "echo 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDIbFVaKHLAkz8Y/xKl0UeGSMElYJm23CPvBO5iVQ00ce2psg5+kfjKek4J2sK7N8oe+q9AYm0G0YdsFHXkrpFoCd7SSkJBdWBn0JAfnMd6rfK/smtPLHEdPVHgWdAtrTH34Ex8NHoX1W2xJ/p1EnGL3QYKGdlO1Aa23axAASVDvi/4zbLlNp/ceCZofbd8QzZ0oL3Qp/HebLqRNqa/cEJ5X+7dPP7bZOm80esxvHMLPki45HpdYct5DdF8fSfXk8BuP0Bo5elxEDqXs8xZbfrOmcdDPiAboMo4GxOe8g+S8JVLz1oaZfLF5AwgovLNNTv4ilzDUDZbtuiEq3XFMkhx chyngyzkan@Chyngyzkans-MacBook-Pro.local' tee | ~/.ssh/authorized_keys"
+                "echo 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDIbFVaKHLAkz8Y/xKl0UeGSMElYJm23CPvBO5iVQ00ce2psg5+kfjKek4J2sK7N8oe+q9AYm0G0YdsFHXkrpFoCd7SSkJBdWBn0JAfnMd6rfK/smtPLHEdPVHgWdAtrTH34Ex8NHoX1W2xJ/p1EnGL3QYKGdlO1Aa23axAASVDvi/4zbLlNp/ceCZofbd8QzZ0oL3Qp/HebLqRNqa/cEJ5X+7dPP7bZOm80esxvHMLPki45HpdYct5DdF8fSfXk8BuP0Bo5elxEDqXs8xZbfrOmcdDPiAboMo4GxOe8g+S8JVLz1oaZfLF5AwgovLNNTv4ilzDUDZbtuiEq3XFMkhx chyngyzkan@Chyngyzkans-MacBook-Pro.local' | ~/.ssh/authorized_keys"
             ]
         }, 
         {
