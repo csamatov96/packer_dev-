@@ -8,5 +8,13 @@
       "ssh_username": "ec2-user",
       "source_ami": "ami-0f2b4fc905b0bd1f1",  
       "ami_name": "updated-ami {{timestamp}}" 
-    }]
+    }], 
+    "provisioners" : [{
+            "type": "shell",
+            "inline": [
+                "sudo yum update -y"
+            ]
+        }
+    ]
+
 }
