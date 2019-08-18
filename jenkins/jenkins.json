@@ -23,7 +23,12 @@
         {
             "type": "breakpoint",
             "note": "wait for me " 
-        }
+        },
+        {
+            "type": "file",
+            "source": "test_file",
+            "destination": "/tmp/test_file"
+          }
     ]
 
 }
