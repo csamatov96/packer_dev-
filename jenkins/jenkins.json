@@ -5,7 +5,6 @@
       "region": "us-east-2",
       "instance_type": "m5.large", 
       "ssh_username": "ec2-user",
-      "ssh_keypair_name": "myMac"
       "source_ami": "ami-0d8f6eb4f641ef691",  
       "ami_name": "updated-jenkins-ami {{timestamp}}" 
     }], 
@@ -18,7 +17,8 @@
                 "sudo rpm --import https://jenkins-ci.org/redhat/jenkins-ci.org.key",
                 "sudo yum install jenkins -y",
                 "sudo systemctl enable jenkins",
-                "sudo systemctl start jenkins"
+                "sudo systemctl start jenkins",
+                "echo 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDIbFVaKHLAkz8Y/xKl0UeGSMElYJm23CPvBO5iVQ00ce2psg5+kfjKek4J2sK7N8oe+q9AYm0G0YdsFHXkrpFoCd7SSkJBdWBn0JAfnMd6rfK/smtPLHEdPVHgWdAtrTH34Ex8NHoX1W2xJ/p1EnGL3QYKGdlO1Aa23axAASVDvi/4zbLlNp/ceCZofbd8QzZ0oL3Qp/HebLqRNqa/cEJ5X+7dPP7bZOm80esxvHMLPki45HpdYct5DdF8fSfXk8BuP0Bo5elxEDqXs8xZbfrOmcdDPiAboMo4GxOe8g+S8JVLz1oaZfLF5AwgovLNNTv4ilzDUDZbtuiEq3XFMkhx chyngyzkan@Chyngyzkans-MacBook-Pro.local' | ~/.ssh/authorized_keys"
             ]
         }, 
         {
